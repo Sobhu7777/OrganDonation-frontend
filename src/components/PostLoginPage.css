@@ -1,0 +1,39 @@
+.post-login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f7fc;
+  }
+  
+  .welcome-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .role-selection-subheader h3 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 40px;
+  }
+  
+  .role-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .role-button {
+    width: 150px;
+    height: 50px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    background-color: #3498db;
+    border: none;
+  }
+  
+  .role-button:hover {
+    background-color: #2980b9;
+  }
+  

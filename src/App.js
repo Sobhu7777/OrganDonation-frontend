@@ -1,24 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import DonorProfile from './components/DonorProfile';
+import DonorReg from './components/DonorReg';
+import HomePage from './components/HomePage';
+import HospitalAdminLogin from './components/HospitalAdminLogin';
+import HospitalPage from './components/HospitalPage';
+import MedicalReport from './components/MedicalReport';
+import PostLoginPage from './components/PostLoginPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HospitalAdminLogin/>
   );
 }
 

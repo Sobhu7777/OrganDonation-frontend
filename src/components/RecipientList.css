@@ -1,0 +1,73 @@
+/* RecipientListStyles.css */
+
+.recipient-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .recipient-list h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .recipient-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .recipient-card h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #0056b3;
+  }
+  
+  .recipient-card p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .badge.pending {
+    background-color: #ffcc00;
+  }
+  
+  .badge.completed {
+    background-color: #28a745;
+  }
+  
+  .badge.failed {
+    background-color: #dc3545;
+  }
+  
+  .recipient-card button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .recipient-card button:hover {
+    background-color: #0056b3;
+  }
+  

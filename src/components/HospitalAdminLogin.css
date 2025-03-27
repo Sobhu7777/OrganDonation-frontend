@@ -1,0 +1,79 @@
+.admin-login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9ecef; /* Light background for a clean look */
+    padding: 20px;
+  }
+  
+  .admin-login-header h1 {
+    font-size: 2.8rem;
+    color: #343a40; /* Dark, professional font color */
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .admin-login-form {
+    background-color: white; /* White form card */
+    padding: 30px;
+    border-radius: 15px; /* Rounded card corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    width: 100%;
+    max-width: 400px; /* Keep the form size contained */
+    text-align: center;
+  }
+  
+  .admin-login-form .form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Align labels left for clarity */
+  }
+  
+  .admin-login-form .form-control {
+    height: 45px;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 8px; /* Softer rounded input fields */
+    border: 1px solid #ced4da; /* Subtle border for inputs */
+    transition: all 0.3s ease;
+  }
+  
+  .admin-login-form .form-control:focus {
+    border-color: #007bff; /* Change border color when focused */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3); /* Soft focus effect */
+  }
+  
+  .login-button {
+    width: 100%;
+    height: 50px;
+    font-size: 1.2rem;
+    background-color: #007bff; /* Bold, primary button color */
+    border: none;
+    border-radius: 8px; /* Rounded corners for the button */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3; /* Darken on hover for a stylish effect */
+  }
+  
+  @media (max-width: 768px) {
+    .admin-login-header h1 {
+      font-size: 2.2rem;
+    }
+  
+    .admin-login-form {
+      padding: 20px;
+    }
+  
+    .login-button {
+      height: 45px;
+      font-size: 1rem;
+    }
+  }
+  
+  

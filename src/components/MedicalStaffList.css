@@ -1,0 +1,103 @@
+/* MedicalStaffList.css */
+
+.medical-staff-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .staff-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .staff-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .staff-info {
+    flex-grow: 1;
+  }
+  
+  .staff-info h4 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .staff-info p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .role {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  /* Color codes for different roles */
+  .role-doctor {
+    background-color: #4CAF50;
+  }
+  
+  .role-nurse {
+    background-color: #007BFF;
+  }
+  
+  .role-technician {
+    background-color: #FFC107;
+  }
+  
+  .role-admin {
+    background-color: #FF5722;
+  }
+  
+  /* Specialization color coding */
+  .specialization {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    color: white;
+  }
+  
+  .specialization-cardiology {
+    background-color: #FF6F61;
+  }
+  
+  .specialization-neurology {
+    background-color: #9C27B0;
+  }
+  
+  .specialization-orthopedics {
+    background-color: #3F51B5;
+  }
+  
+  .specialization-surgery {
+    background-color: #795548;
+  }
+  
+  .specialization-pediatrics {
+    background-color: #FF9800;
+  }
+  
+  .experience {
+    color: #888;
+    font-size: 0.85em;
+  }
+  
